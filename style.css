@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 25px;
+}
+
+.trip_main{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    font-variant-caps: top;
+    z-index: 100000;
+}
+.trip_nav a{
+ margin-right: 20px;
+ font-weight: bolder;
+}
+.trip_inr{
+    display: flex;
+}
+.trip_inr p{
+    margin-right: 18px;
+    font-weight: bold;
+    font-size: larger;
+}
+.trip_nav a:hover{
+    text-decoration: underline;
+}
+.main_img{
+    width: 125px;
+}
+.btn_set{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+.box_content_s1{
+    text-align: center;
+    font-weight: bolder;
+}
+.box_content_s2{
+    text-align: center;
+}
+.box_content_s2 a{
+    margin-right: 19px;
+}
+.box_content_s2 a:hover{
+    text-decoration: underline;
+}
+.search_box{
+    border: black 1px solid;
+    border-radius: 25px;
+    padding: 7px;
+    margin-right: 10px;
+}
+.search_box input{
+    border: none;
+    width: 450px;
+}
+.search_btn{
+    border-radius: 25px;
+    background-color: rgb(83, 82, 173);
+    color: black;
+    padding: 8px;
+    font-weight: bolder;
+}
+.search_container{
+    display: flex;
+    justify-content: center;
+}
+.pad_top{
+    margin-top: 28px;
+}
+.welcome_image{
+    display: flex;
+    margin-top: 42px;
+    justify-content: center;
+}
+.welcome_image img{
+    border-radius: 30px;
+}
+.content_image_box{
+    border-radius: 26px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    opacity: 0.8;
+}
+.image_head_content {
+    position: relative;
+    bottom: 79px;
+    left: 8px;
+}
+.stay_somewhere_box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 22px;
+}
+.stay_image_box{
+    margin-right: 16px;
+}
+.content_image_box:hover{
+    opacity: 1;
+}
+.stay_somewhere_text{
+    margin-top: 16px;
+}
+.waytotour{
+    display: flex;
+}
+.waytotour h1{
+    font-size: 16px;
+}
+.waytotour p{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.change_font{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.More_explore_main_box{
+    background-color:pink;
+    padding: 15px;
+    border-radius: 28px;
+}
+
+.stay_image_box{
+    border-width: 28px;
+}
+.More_explore_image_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    padding:50px 8%;
+    background-color: #FAF1ED;
+}
+.footer .footer__one{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer__oneone{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer .footer__oneone__one{
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer__oneone__two{
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer__oneone__three{
+    display: flex;
+    flex-direction: column;
+}
+.footer h3{
+    font-family: 'Trip Sans';
+    font-weight: 500 ;
+    font-size:16px;
+    color:black;
+}
+.footer a{
+    font-family: 'Trip Sans';
+    font-weight: 400 ;
+    font-size:14px;
+    color:black;
+    text-decoration: none;
+    padding: 2px 0px;
+}
+.footer .footer__two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer .footer__two img{
+    width: 40px;
+}
+.footer .footer__twoone__one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer h4{
+    font-family: 'Trip Sans';
+    font-weight: 500 ;
+    font-size:12px;
+    color:black;
+}
+.footer ul{
+   gap: 20px;
+}
+.footer ul a{
+    font-family: 'Trip Sans';
+    font-weight: 500 ;
+    font-size:16px;
+    color:black;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+.footer select{
+    background-color:white;
+    border: solid 2px rgba(128, 128, 128, 0.555);
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    padding: 0px 5px;
+    font-family: 'Trip Sans';
+    font-weight: 500 ;
+    font-size:16px;
+    outline: none;
+    margin-right: 10px;
+}
+.footer .footer__three{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.footer p{
+    font-family: 'Trip Sans';
+    font-weight: 500 ;
+    font-size:12px;
+    color:rgba(0, 0, 0, 0.692);
+}
+.footer .footer__three i{
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+
+@media screen and (max-width:800px) {
+    .trip_nav{
+        display: none;
+    }
+    .search_box{
+        border: black 1px solid;
+        border-radius: 25px;
+        padding: 7px;
+        margin-right: 10px;
+    }
+    .search_box input{
+        border: none;
+        width: 180px;
+    }
+    .welcome_image{
+        height: 160px;
+    }
+    h1{
+        font-size: 21px;
+    }
+    p{
+        font-size: 12px;
+    }
+
+}
+
+
+
